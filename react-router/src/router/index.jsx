@@ -5,6 +5,7 @@ import Config from './config'
 
 class Router extends Component {
 
+  //递归生成路由文件
   generateRoute(ele) {
     if (ele.children) {
       if (ele.component) {
